@@ -5,6 +5,10 @@
     --white : #fff;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
 /* Typography */
 body {
     font-family: 'Poppins', sans-serif;
@@ -34,4 +38,14 @@ body {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+}
+
+/* lists */
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
